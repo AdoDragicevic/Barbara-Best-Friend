@@ -1,0 +1,36 @@
+.Navbar {
+    height: 5vh;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #0C120C;
+    transition: .4s;
+}
+
+.Navbar a {
+    color: #4CD7F6;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+.Navbar a:hover {
+    opacity: .5;
+    transition: .4s;
+}
+
+.Navbar i {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-right: 5px;
+}
+
+.Navbar--select {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .Navbar {
+        height: 8vh;
+    }
+}

@@ -1,0 +1,70 @@
+.Why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    background-color: #7061cf;
+}
+
+.Why__img-box {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 3px;
+    height: 70vh;
+    margin-top: 5vh;
+    overflow: hidden;
+    text-align: center;
+    background-size: contain;
+}
+
+.Why__img {    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Why__btns {
+    position: fixed;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+}
+
+.Why__btn {
+    flex-grow: 1;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(216, 212, 212);
+    font-size: 1.2rem;
+    line-height: 35px;
+    transition: .4s;
+    padding: 0 1.5vw;
+    opacity: .8;
+    background-color: transparent;
+    background-color: #CE123E;
+}
+
+.Why__btn:hover {
+    opacity: .9;
+}
+
+.Why__btn:disabled {
+    opacity: .2;
+}
+
+.Why__btn:active {
+    transform: scale(1.1);
+}
+
+.Why__btn i {
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 720px) {
+    .Why__btns {
+        bottom: 10vh;
+    }
+}

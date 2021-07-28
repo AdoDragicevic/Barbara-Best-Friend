@@ -1,0 +1,42 @@
+.List {
+    height: 100%;
+    width: 100%;
+}
+
+.List__title {
+    text-align: center;
+    font-weight: 100;
+    margin: 2vh 0;
+}
+
+.List ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: stretch;
+    
+}
+
+.List li {
+    width: 100%;
+    padding: 0 2vw;
+    margin-bottom: 8px;
+}
+
+.List li input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #eee;
+    color: #F9DC5C;
+    font-family: inherit;
+    overflow: hidden;
+    padding: 3px 5px 5px 5px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    cursor:text;
+}
+

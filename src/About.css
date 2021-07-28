@@ -1,0 +1,52 @@
+.About {
+    background-color: #256EFF; 
+    height: 95vh;
+    display: flex;
+    color: #eee;
+}
+
+.About__btns {
+    position: fixed;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About__btn {
+    flex-grow: 1;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(216, 212, 212);
+    font-size: 1.2rem;
+    line-height: 35px;
+    transition: .4s;
+    padding: 0 1.5vw;
+    opacity: .8;
+    background-color: transparent;
+    background-color: #CE123E;
+}
+
+.About__btn:hover {
+    opacity: .9;
+}
+
+.About__btn:disabled {
+    opacity: .2;
+}
+
+.About__btn:active {
+    transform: scale(1.1);
+}
+
+.About__btn i {
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 720px) {
+    .About__btns {
+        bottom: 10vh
+    }
+}

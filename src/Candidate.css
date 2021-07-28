@@ -1,0 +1,175 @@
+.Candidate {
+    flex-grow: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+.Candidate__card {
+    width: 70%;
+    max-width: 270px;
+    min-width: 200px;
+    max-height: 60vh;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    box-shadow: 0 0 1rem rgba(194, 191, 191, 0.2), 0 0 2rem rgba(201, 200, 200, 0.1);
+}
+
+.Candidate__img-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+}
+
+.Candidate__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.Candidate__img {
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.Candidate__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.Candidate__title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.Candidate__score-txt {
+    font-size: 12px;
+}
+
+.Candidate__score-num {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.Candidate__btns {
+    display: flex;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.Candidate__btn {
+    flex-grow: 1;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 8px;
+    background-color: salmon;
+    font-size: 1.6rem;
+    line-height: 30px;
+    font-weight: 800;
+    color: #0C120C;
+    transition: .4s;
+}
+
+.Candidate__btn:hover {
+    opacity: .9;
+}
+
+.Candidate__btn:disabled {
+    opacity: .2;
+}
+
+.Candidate__btn:active {
+    transform: scale(1.1);
+}
+
+.col-green {
+    color: yellowgreen;
+}
+
+.col-grey {
+    color: #eee;
+}
+
+.col-red {
+    color: rgb(243, 141, 141);
+}
+
+@media screen and (max-width: 1100px) {
+    .Candidate__content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Candidate__card {
+        flex-direction: row;
+        margin-bottom: 30px;
+        min-width: 80%;
+        height: 20vh;
+    }
+    .Candidate__content-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding: 0 10px;
+    }
+    .Candidate__img-container {
+        width: 150px;
+        background-color:rgba(0, 0, 0, .1);
+    }
+    .Candidate__img {
+        margin: auto;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
+    .Candidate__btns {
+        flex-direction: column;
+        min-width: 50px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .Candidate__btn {
+        width: 100%;
+        margin: 4px;
+    }
+    .Candidate__content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px), (max-height: 650px) {
+    .Candidate__card {
+        overflow: visible;
+        height: 20vh;
+        background-color: rgba(0, 0, 0, .8);
+        margin-top: 4vh;
+    }
+    .Candidate__img-container {
+        width: 50px;
+        overflow: visible;
+        background-color: transparent;
+    }
+    .Candidate__img {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+}
