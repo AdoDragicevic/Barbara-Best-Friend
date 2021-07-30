@@ -1,7 +1,6 @@
 const candidates = [
     { 
         name: "Ado",
-        url: "Ado.jpg",
         url: {
             sm: "imgs/candidates/Ado_sm.jpg",
             lg: "imgs/candidates/Ado_lg.jpg"
