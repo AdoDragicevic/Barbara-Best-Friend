@@ -1,12 +1,7 @@
-- add play sound to 20 and -20
-- popravi bug s dodavanjem emojia na negativne brojeve
-- add pictures oriana & ado - sm & xs
-- favicon
-
 - deploy
 - test
 - refactor CSS
-- deploy again
+- deploy again & push to github
 
 
 

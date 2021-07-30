@@ -1,20 +1,11 @@
 const candidates = [
     { 
-        name: "Oriana",
-        url: "Oriana.jpg",
-        traits: { 
-            good: [ 
-                "Very good burper",
-                "Will bitch slap"
-            ], 
-            bad: [
-                "Craves stability"
-            ] 
-        }
-    },
-    { 
         name: "Ado",
         url: "Ado.jpg",
+        url: {
+            sm: "imgs/candidates/Ado_sm.jpg",
+            lg: "imgs/candidates/Ado_lg.jpg"
+        },
         traits: { 
             good: [
                 "Hspeakz ehspanjol", 
@@ -24,6 +15,23 @@ const candidates = [
             bad: [ 
                 "HIMYM fan",
                 "Always coding..."
+            ] 
+        }
+    },
+    { 
+        name: "Oriana",
+        url: {
+            sm: "imgs/candidates/Oriana_sm.jpg",
+            lg: "imgs/candidates/Oriana_lg.jpg"
+        },
+        traits: { 
+            good: [
+                "Very good dancer",
+                "Applies tough love",
+                "Very good burper"
+            ], 
+            bad: [
+                "Craves stability"
             ] 
         }
     }

@@ -22,7 +22,7 @@ class ProfileBox extends Component {
             <div className="ProfileBox">
                 <div className="ProfileBox__header">
                     <div className="ProfileBox__img-container">
-                        <img className="ProfileBox__img" src={`imgs/${candidate.url}`} alt="Candidate"></img>
+                        <img className="ProfileBox__img" src={candidate.url.sm} alt="Candidate"></img>
                     </div>
                     <h1 className="ProfileBox__title"> {candidate.name} </h1>
                     <p className="ProfileBox__description">Keep track of good and bad traits</p>

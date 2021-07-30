@@ -12,9 +12,20 @@
     text-align: center;
     color: #0C120C;
     font-size: 3.5rem;
-    padding: 4vh 0;
+    padding: 4vh 0 1vh 0;
     font-weight: 100;
     transition: .5s;   
+}
+
+.Game__subtitle {
+    font-size: 10px;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 4vh;
+    opacity: .9;
 }
 
 .Game__container {
@@ -104,5 +115,11 @@
     .Game__title {
         font-size: 2.2rem;
         padding: 5vh 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Game__subtitle {
+        padding-bottom: 1vh;
     }
 }
