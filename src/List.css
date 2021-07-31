@@ -1,27 +1,26 @@
 .List {
     height: 100%;
     width: 100%;
+    margin: 8vh 0;
 }
 
 .List__title {
     text-align: center;
     font-weight: 100;
-    margin: 2vh 0;
+    margin: 3vh;
 }
 
 .List ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    
     align-items: stretch;
-    
 }
 
 .List li {
     width: 100%;
     padding: 0 2vw;
-    margin-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .List li input {
@@ -38,5 +37,6 @@
     font-weight: 100;
     letter-spacing: 1px;
     cursor:text;
+    border-radius: 0;
+    min-height: 1.2rem;
 }
-

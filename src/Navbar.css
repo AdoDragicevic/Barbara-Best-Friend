@@ -33,4 +33,11 @@
     .Navbar {
         height: 8vh;
     }
+    .Navbar a {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .Navbar i {
+        font-size: 1.2rem;
+    }
 }

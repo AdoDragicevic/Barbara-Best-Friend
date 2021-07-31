@@ -154,6 +154,7 @@
 
 @media screen and (max-width: 550px), (max-height: 650px) {
     .Candidate__card {
+        width: 95%;
         overflow: visible;
         height: 20vh;
         background-color: rgba(0, 0, 0, .8);
@@ -178,7 +179,15 @@
 }
 
 @media screen and (max-width: 380px) {
+    .Candidate__card {
+        margin-bottom: 10px;
+    }
     .Candidate__btn {
         width: 35px;
+    } 
+    .Candidate__img {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
     }
 }

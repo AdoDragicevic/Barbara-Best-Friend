@@ -2,7 +2,7 @@
     background-color: #08090A;
     margin: 17vh auto;
     border-radius: 3px;
-    width: 85%;
+    width: 80%;
     max-width: 700px;
     height: 50vh;
     position: relative;
@@ -31,11 +31,15 @@
     bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .ProfileBox__img-container {
     height: 12vh;
     width: 12vh;
+    min-width: 70px;
 }
 
 .ProfileBox__img {
@@ -67,6 +71,12 @@
     opacity: .7;
     letter-spacing: 3px;
     color: #F9DC5C;
+}
+
+@media screen and (max-width: 450px) {
+    .ProfileBox__description {
+        display: none;
+    }
 }
 
 .ProfileBox__btn {
@@ -129,5 +139,9 @@
     }
     .ProfileBox__body {
         flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .ProfileBox__btns {
+        justify-content: space-between;
     }
 }

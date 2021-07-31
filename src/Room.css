@@ -4,7 +4,6 @@
     background-image: url("room.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -35,7 +34,7 @@
 
 @media screen and (max-width: 600px) {
     .Room__title {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         letter-spacing: 1px;
     }
 }

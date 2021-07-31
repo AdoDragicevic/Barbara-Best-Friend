@@ -6,7 +6,7 @@
 }
 
 .Why__img-box {
-    width: 100%;
+    width: 70%;
     max-width: 400px;
     border-radius: 3px;
     height: 75vh;
@@ -15,10 +15,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /*
     text-align: center;
     background-size: contain;
-    */
 }
 
 .Why__img {    
@@ -69,5 +67,11 @@
 @media screen and (max-width: 720px) {
     .Why__btns {
         bottom: 10vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Why__img-box {
+        padding-top: 0;
     }
 }

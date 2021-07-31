@@ -44,9 +44,3 @@
 .About__btn i {
     margin-left: 12px;
 }
-
-@media screen and (max-width: 720px) {
-    .About__btns {
-        bottom: 10vh
-    }
-}
