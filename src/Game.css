@@ -53,9 +53,6 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-}
-
-.Game__btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,18 +86,6 @@
     background-color: #CE123E;
 }
 
-.Game__btn:hover {
-    opacity: .9;
-}
-
-.Game__btn:disabled {
-    opacity: .2;
-}
-
-.Game__btn:active {
-    transform: scale(1.1);
-}
-
 
 @media screen and (max-width: 720px) {
     .Game__container {
@@ -127,7 +112,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) and (max-height: 1100px) {
     .Game__title {
         font-size: 20px;
         font-weight: 500;

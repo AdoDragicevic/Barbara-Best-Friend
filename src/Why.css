@@ -23,17 +23,6 @@
     width: 100%;
 }
 
-.Why__btns {
-    position: fixed;
-    bottom: 5vh;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: max-content;
-}
-
 .Why__btn {
     flex-grow: 1;
     height: 35px;
@@ -48,26 +37,8 @@
     background-color: #CE123E;
 }
 
-.Why__btn:hover {
-    opacity: .9;
-}
-
-.Why__btn:disabled {
-    opacity: .2;
-}
-
-.Why__btn:active {
-    transform: scale(1.1);
-}
-
 .Why__btn i {
     margin-left: 12px;
-}
-
-@media screen and (max-width: 720px) {
-    .Why__btns {
-        bottom: 10vh;
-    }
 }
 
 @media screen and (max-width: 550px) {

@@ -19,3 +19,36 @@ button, a {
 button:hover, a:hover {
   cursor: pointer;
 }
+
+.btn {
+  transition: .4s;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+.btn:disabled {
+  opacity: .2;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.pos-fix-bottom {
+  position: fixed;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+@media screen and (max-width: 600px) {
+  .pos-fix-bottom {
+      bottom: 10vh
+  }
+}

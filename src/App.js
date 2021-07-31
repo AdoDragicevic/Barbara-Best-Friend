@@ -4,7 +4,6 @@ import Game from "./Game";
 import About from "./About";
 import Why from "./Why";
 import Room from "./Room";
-import './App.css';
 
 function App() {
   return (

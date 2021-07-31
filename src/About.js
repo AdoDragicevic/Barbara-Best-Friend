@@ -9,8 +9,8 @@ function About() {
     return (
         <div className="About">
             <ProfileBox candidates={candidates} />
-            <div className="About__btns">
-                <Link className="About__btn" to="/"> 
+            <div className="pos-fix-bottom">
+                <Link className="About__btn btn" to="/"> 
                     Return 
                     <i className="far fa-arrow-alt-circle-left"></i>
                 </Link>

@@ -20,8 +20,8 @@ class Why extends Component {
                     alt="Funny and random">
                 </img>
                 </div>
-                <div className="Why__btns">
-                    <button className="Why__btn" onClick={this.props.history.goBack}>
+                <div className="pos-fix-bottom">
+                    <button className="Why__btn btn" onClick={this.props.history.goBack}>
                         Now go back! 
                         <i className="far fa-arrow-alt-circle-left"></i> 
                     </button>

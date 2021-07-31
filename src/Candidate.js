@@ -81,8 +81,8 @@ class Candidate extends Component {
                             <p className={`Candidate__score-num ${this.getScoreColorClass(score)}`}> {score} </p>
                         </div>
                         <div className="Candidate__btns">
-                            <button className="Candidate__btn" disabled={score <= -20} value="-" onClick={this.handleClick}>&#8722;</button>
-                            <button className="Candidate__btn" disabled={score >= 20} value="+" onClick={this.handleClick}>&#43;</button>
+                            <button className="Candidate__btn btn" disabled={score <= -20} value="-" onClick={this.handleClick}>&#8722;</button>
+                            <button className="Candidate__btn btn" disabled={score >= 20} value="+" onClick={this.handleClick}>&#43;</button>
                         </div>
                     </div>
                 </div>

@@ -11,8 +11,7 @@ class List extends Component {
         const items = JSON.parse(window.localStorage.getItem(`${this.props.id}`)); 
         if (items) this.setState({ items });
         else if (this.props.items) {
-            const { items } = this.props;
-            const { max } = this.props;
+            const { items, max } = this.props;
             const itm = [];
             for(let i = 0; i < max; i++) itm[i] = items[i] || "";
             this.setState({ items: itm });
@@ -23,12 +22,9 @@ class List extends Component {
         const items = [ ...this.state.items ];
         const indx = e.target.dataset.indx;
         items[indx] = e.target.value;
-        this.setState({ items }, () => this.saveToLocalStorage(this.props.id, items) );
-    };
-
-    saveToLocalStorage(name, items) {
-        const data = JSON.stringify(items);
-        window.localStorage.setItem(name, data);
+        this.setState({ items }, () => {
+            window.localStorage.setItem(this.props.id, JSON.stringify(items));
+        });
     };
 
     render() {

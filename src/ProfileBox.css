@@ -104,18 +104,6 @@
     transform: translate(1px, 1.5px);
 }
 
-.ProfileBox__btn:hover {
-    opacity: .9;
-}
-
-.ProfileBox__btn:disabled {
-    opacity: .2;
-}
-
-.ProfileBox__btn:active {
-    transform: scale(1.1);
-}
-
 
 .ProfileBox__body::-webkit-scrollbar,
 .ProfileBox__body::-webkit-scrollbar-track,

@@ -29,18 +29,6 @@
     background-color: #CE123E;
 }
 
-.About__btn:hover {
-    opacity: .9;
-}
-
-.About__btn:disabled {
-    opacity: .2;
-}
-
-.About__btn:active {
-    transform: scale(1.1);
-}
-
 .About__btn i {
     margin-left: 12px;
 }

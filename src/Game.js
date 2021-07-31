@@ -13,9 +13,9 @@ function Game() {
                 {candidates.map( c => <Candidate key={c.name} name={c.name} url={c.url.lg} /> )}
             </div>
             <div className="Game__vs"> VS. </div>
-            <div className="Game__btns">
-                <Link className="Game__btn Game__btn--room" to="/room">The Room <i className="fas fa-quote-right"></i> </Link>
-                <Link className="Game__btn Game__btn--why" to="/why">Don't click! <i className="far fa-times-circle"></i> </Link>
+            <div className="pos-fix-bottom">
+                <Link className="Game__btn Game__btn--room btn" to="/room">The Room <i className="fas fa-quote-right"></i> </Link>
+                <Link className="Game__btn Game__btn--why btn" to="/why">Don't click! <i className="far fa-times-circle"></i> </Link>
             </div>
         </div>
     );

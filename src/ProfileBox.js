@@ -22,7 +22,12 @@ class ProfileBox extends Component {
             <div className="ProfileBox">
                 <div className="ProfileBox__header">
                     <div className="ProfileBox__img-container">
-                        <img className="ProfileBox__img" src={candidate.url.sm} alt="Candidate"></img>
+                        <img 
+                            className="ProfileBox__img" 
+                            src={candidate.url.sm} 
+                            alt="Candidate"
+                        >
+                        </img>
                     </div>
                     <h1 className="ProfileBox__title"> {candidate.name} </h1>
                     <p className="ProfileBox__description">Keep track of good and bad traits</p>
@@ -37,7 +42,6 @@ class ProfileBox extends Component {
                         key={`${candidate.name}-good`} 
                     />
                     <List 
-                        
                         items={candidate.traits.bad} 
                         max={5} 
                         title="Bad"
@@ -47,10 +51,10 @@ class ProfileBox extends Component {
                     />
                 </div>
                 <div className="ProfileBox__btns">
-                        <button className="ProfileBox__btn" name="-" onClick={this.changeProfile}>
+                        <button className="ProfileBox__btn btn" name="-" onClick={this.changeProfile}>
                             <i className="fas fa-chevron-left"></i>
                         </button>
-                        <button className="ProfileBox__btn" name="+" onClick={this.changeProfile}>
+                        <button className="ProfileBox__btn btn" name="+" onClick={this.changeProfile}>
                             <i className="fas fa-chevron-right"></i>
                         </button>
                     </div>
