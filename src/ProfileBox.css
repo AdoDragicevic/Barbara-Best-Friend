@@ -3,7 +3,7 @@
     margin: 17vh auto;
     border-radius: 3px;
     width: 80%;
-    max-width: 700px;
+    max-width: 720px;
     height: 50vh;
     position: relative;
 }
@@ -15,6 +15,7 @@
     align-items: center;
     height: 12vh;
     border-bottom: 1px solid #F9DC5C;
+    position: relative;
 }
 
 .ProfileBox__body {
@@ -24,16 +25,6 @@
     height: 38vh;
     overflow-y: auto;
     padding-bottom: 40px;
-}
-
-.ProfileBox__btns {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 .ProfileBox__img-container {
@@ -54,29 +45,18 @@
     color: #F9DC5C;
     font-weight: 100;
     margin-left: 2.3vw;
-    letter-spacing: .4vw;
+    letter-spacing: .7vw;
     transition: .5s ease-out;
 }
 
-@media screen and (min-width: 720px) {
-    .ProfileBox__title:hover {
-        letter-spacing: 1vw;
-    }   
-}
-
 .ProfileBox__description {
-    align-self: flex-end;
-    padding: 0 20px 5px 20px;
     font-size: 10px;
     opacity: .7;
     letter-spacing: 3px;
     color: #F9DC5C;
-}
-
-@media screen and (max-width: 450px) {
-    .ProfileBox__description {
-        display: none;
-    }
+    position: absolute;
+    bottom: 4px;
+    right: 15px;
 }
 
 .ProfileBox__btn {
@@ -91,6 +71,10 @@
     transition: .4s;
 }
 
+.ProfileBox__btn:hover {
+    background-color: rgb(155, 149, 149);
+}
+
 .ProfileBox__btn i {
     color: #eee;
     font-size: 1rem;
@@ -103,7 +87,6 @@
 .ProfileBox__btn:nth-child(2) i {
     transform: translate(1px, 1.5px);
 }
-
 
 .ProfileBox__body::-webkit-scrollbar,
 .ProfileBox__body::-webkit-scrollbar-track,
@@ -120,16 +103,39 @@
     border-radius: 3px;
 }
 
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
     .ProfileBox {
-        margin-top: 10vh;
+        border-top: 3px solid #eee;
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+        height: 75vh;
+        align-self: flex-start;
+        border-radius: 0;
+    }
+    .ProfileBox__title:hover {
+        letter-spacing: 1vw;
     }
     .ProfileBox__body {
         flex-direction: column;
-        padding-bottom: 10px;
+        padding: 10px;
+        height: 60vh;
     }
     .ProfileBox__btns {
         justify-content: space-between;
+    }
+    .ProfileBox__header {
+        border-radius: 0;
+        padding-bottom: 0;
+    }
+    .ProfileBox__img-container {
+        border-radius: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ProfileBox__description {
+        display: none;
     }
 }

@@ -14,7 +14,7 @@
     font-size: 3.5rem;
     padding: 4vh 0 1vh 0;
     font-weight: 100;
-    transition: .5s;   
+    transition: .5s;
 }
 
 .Game__subtitle {
@@ -59,7 +59,7 @@
 }
 
 .Game__btn {
-    max-width: max-content;
+    min-width: max-content;
     flex-grow: 1;
     height: 35px;
     border-radius: 10px;
@@ -105,20 +105,18 @@
         font-size: 1.7rem;
     }
     .Game__subtitle {
-        padding-bottom: 1vh;
+        display: none;
     }
     .Game__btn {
         margin: 0 3px;
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 450px) and (max-height: 1100px) {
+@media screen and (max-width: 350px) {
     .Game__title {
         font-size: 20px;
         font-weight: 500;
         padding: 3vh 0 0 0;
-    }
-    .Game__subtitle {
-        display: none;
     }
 }

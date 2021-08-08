@@ -31,6 +31,14 @@ class ProfileBox extends Component {
                     </div>
                     <h1 className="ProfileBox__title"> {candidate.name} </h1>
                     <p className="ProfileBox__description">Keep track of good and bad traits</p>
+                    <div className="ProfileBox__btns">
+                        <button className="ProfileBox__btn btn" name="-" onClick={this.changeProfile}>
+                            <i className="fas fa-chevron-left"></i>
+                        </button>
+                        <button className="ProfileBox__btn btn" name="+" onClick={this.changeProfile}>
+                            <i className="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
                 </div>
                 <div className="ProfileBox__body">
                     <List
@@ -50,14 +58,6 @@ class ProfileBox extends Component {
                         key={`${candidate.name}-bad`} 
                     />
                 </div>
-                <div className="ProfileBox__btns">
-                        <button className="ProfileBox__btn btn" name="-" onClick={this.changeProfile}>
-                            <i className="fas fa-chevron-left"></i>
-                        </button>
-                        <button className="ProfileBox__btn btn" name="+" onClick={this.changeProfile}>
-                            <i className="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
             </div>
         );
     };
