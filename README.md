@@ -7,7 +7,7 @@
 
 ### Functionalities
 * give points to friends
-* every five points a friend gets emojy
+* every five points a friend gets an emojy
 * sound is played when a friend reaches +20 or -20 points
 * picture and name fade out with negative points
 * keep a list of good and bad traits

@@ -65,8 +65,8 @@
     background-color: rgba(0, 0, 0, .8);
     border-radius: 100%;
     width: 40px;
-    height: 40px;
-    line-height: 40px;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
     opacity: .5;
     transition: .4s;
@@ -78,11 +78,11 @@
 }
 
 .ProfileBox__btn:first-child i {
-    transform: translate(-1px, 1.5px);
+    transform: translate(-7px, 1.5px);
 }
 
 .ProfileBox__btn:nth-child(2) i {
-    transform: translate(1px, 1.5px);
+    transform: translate(-5px, 1.5px);
 }
 
 .ProfileBox__body::-webkit-scrollbar,
