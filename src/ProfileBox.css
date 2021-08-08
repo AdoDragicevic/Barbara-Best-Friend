@@ -71,10 +71,6 @@
     transition: .4s;
 }
 
-.ProfileBox__btn:hover {
-    background-color: rgb(155, 149, 149);
-}
-
 .ProfileBox__btn i {
     color: #eee;
     font-size: 1rem;
@@ -101,6 +97,12 @@
 .ProfileBox__body::-webkit-scrollbar-thumb:vertical {
     border-right: 1.5rem solid rgba(255,255,255,.2);
     border-radius: 3px;
+}
+
+@media screen and (min-width: 720px) {
+    .ProfileBox__btn:hover {
+        background-color: rgb(155, 149, 149);
+    }   
 }
 
 @media screen and (max-width: 720px) {
@@ -137,5 +139,14 @@
 @media screen and (max-width: 550px) {
     .ProfileBox__description {
         display: none;
+    }
+    .ProfileBox__body {
+        height: 80vh;
+    }
+    .ProfileBox__btn {
+        margin: 0 10px;
+    }
+    .ProfileBox__title {
+        letter-spacing: 0;
     }
 }
