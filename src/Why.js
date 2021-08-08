@@ -3,7 +3,7 @@ import "./Why.css";
 
 class Why extends Component {
 
-    static defaultProps = { numOfImgs: 40 };
+    static defaultProps = { numOfImgs: 39 };
 
     getRandUrl = () => {
         const randNum = Math.floor(Math.random() * this.props.numOfImgs +1);
