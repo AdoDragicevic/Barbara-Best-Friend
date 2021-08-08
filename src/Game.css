@@ -56,7 +56,6 @@
     font-size: 1.2rem;
     line-height: 35px;
     transition: .4s;
-    padding: 0 15px;
     opacity: .8;
     z-index: 2;
 }
@@ -85,6 +84,7 @@
     .Game__title {
         font-size: 2.2rem;
         padding: 4vh 0;
+        font-weight: 500;
     }
 }
 
@@ -94,9 +94,5 @@
     }
     .Game__subtitle {
         display: none;
-    }
-    .Game__btn {
-        margin: 0 3px;
-        font-size: 1rem;
     }
 }

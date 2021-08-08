@@ -1,22 +1,22 @@
-- deploy
-- test
-- refactor CSS
-- deploy again & push to github
+# Barbara's Best Friend
+
+## Single Page App made with React. :collision:
+
+### Visit it on Netlify
 
 
+### Functionalities
+* give points to friends
+* every five points a friend gets emojy
+* sound is played when a friend reaches +20 or -20 points
+* picture and name fade out with negative points
+* keep a list of good and bad traits
+* local storage
+* get a random qoute from movie The Room
+* get random funny image
+* responsive design
 
-
-
-
-
-
-If you click on image you get some info
-- craves stability
-+ very good burper, 
-+ will slap in the face 
-
--
-+ hspeakz ehspanjol
-+ will eat sushi 24/7
-+ has a green flat
-+ loves craft beer
+### Using
+* React.js
+* React Router DOM
+* CSS3 (BEM)

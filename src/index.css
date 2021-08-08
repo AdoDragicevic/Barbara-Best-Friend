@@ -24,6 +24,7 @@ button:hover, a:hover {
   transition: .4s;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 0 3vh;
 }
 
 .btn:hover {

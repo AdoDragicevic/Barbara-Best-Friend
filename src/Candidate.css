@@ -130,7 +130,7 @@
     .Candidate__card {
         width: 95%;
         overflow: visible;
-        height: 20vh;
+        height: 15vh;
         background-color: rgba(0, 0, 0, .8);
         margin-top: 4vh;
     }
