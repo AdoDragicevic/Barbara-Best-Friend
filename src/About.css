@@ -26,9 +26,6 @@
     .About {
         background-color: black;
     }
-}
-
-@media screen and (max-width: 550px) {
     .About__btn {
         display: none;
     }

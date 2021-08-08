@@ -121,10 +121,7 @@
     .ProfileBox__body {
         flex-direction: column;
         padding: 10px;
-        height: 60vh;
-    }
-    .ProfileBox__btns {
-        justify-content: space-between;
+        height: 80vh;
     }
     .ProfileBox__header {
         border-radius: 0;
@@ -139,9 +136,6 @@
 @media screen and (max-width: 550px) {
     .ProfileBox__description {
         display: none;
-    }
-    .ProfileBox__body {
-        height: 80vh;
     }
     .ProfileBox__btn {
         margin: 0 10px;
