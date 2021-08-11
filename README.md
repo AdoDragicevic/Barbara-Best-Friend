@@ -3,7 +3,7 @@
 ## Single Page App made with React. :collision:
 
 ### Visit it on Netlify
-https://elastic-allen-4ba2cd.netlify.app/
+https://amazing-ride-d518fe.netlify.app/
 
 ### Functionalities
 * give points to friends
